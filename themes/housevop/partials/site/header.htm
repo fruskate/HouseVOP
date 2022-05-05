@@ -12,14 +12,14 @@
                         <li class="nav_menu"><a href="">Район</a></li>
                         <li class="nav_menu"><a href="">Каталог квартир</a></li>
                         <li class="nav_menu"><a href="">Ипотека</a></li>
-                        <li class="nav_menu"><a href="">Контакты</a></li>
+                        <li class="nav_menu"><a href="{{ 'static_pages/contacts'|page }}">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
         <div class="heading">
             <div>
-                <h1>Жилой комплекс в историческом центре</h1>
+                <h1>{{ this.page.title }}</h1>
             </div>
             <div class="mouse">
                 <img src="{{ 'assets/images/mouse.svg'|theme }}" alt="mouse">
