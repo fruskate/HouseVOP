@@ -1,0 +1,83 @@
+name: housevop
+description: ''
+author: ''
+homepage: ''
+authorCode: ''
+code: ''
+parent: ''
+database: '0'
+form:
+    fields:
+        address:
+            label: Адрес
+            type: text
+            span: full
+        phone:
+            label: Телефон
+            type: text
+            span: auto
+        phone_link:
+            label: Ссылка на телефон
+            type: text
+            span: auto
+            default: 3423423
+        sales_department:
+            label: Время работы отдела продаж
+            type: text
+            span: auto
+        email:
+            label: E-mail
+            type: text
+            span: auto
+        is_yt:
+            label: Показывать значок YT
+            type: switch
+            comment: Переключите если хотите чтобы значок YT показывался
+            span: left
+        yt_link:
+            label: Ссылочка на YT
+            type: text
+            span: right
+            trigger:
+                action: show
+                field: is_yt
+                condition: checked
+        is_vk:
+            label: Показывать значок VK
+            type: switch
+            comment: Переключите если хотите чтобы значок VK показывался
+            span: left
+        vk_link:
+            label: Ссылочка на VK
+            type: text
+            span: right
+            trigger:
+                action: show
+                field: is_vk
+                condition: checked
+        is_fb:
+            label: Показывать значок FB
+            type: switch
+            comment: Переключите если хотите чтобы значок FB показывался
+            span: left
+        fb_link:
+            label: Ссылочка на FB
+            type: text
+            span: right
+            trigger:
+                action: show
+                field: is_fb
+                condition: checked
+        is_ig:
+            label: Показывать значок IG
+            type: switch
+            comment: Переключите если хотите чтобы значок IG показывался
+            span: left
+        ig_link:
+            label: Ссылочка на IG
+            type: text
+            span: right
+            trigger:
+                action: show
+                field: is_ig
+                condition: checked

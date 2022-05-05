@@ -1,0 +1,78 @@
+<footer class="footer">
+    <div class="container footer_container">
+        <div class="footer_logo">
+            <a href="#"><img class="logo_img" src="{{ 'assets/images/HouseVOP.svg'|theme }}" alt="logo">
+                <p class="logo">ЖИЛОЙ КОМПЛЕКС</p></a>
+        </div>
+        <div class="footer_ollinfo">
+            <div class="footer_info">
+                <ul class="footer_menu">
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="#">О комплексе</a>
+                    </li>
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="#">Район</a>
+                    </li>
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="#">Каталог квартир</a>
+                    </li>
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="#">Ипотека</a>
+                    </li>
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_info">
+                <ul class="footer_menu">
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="#">О комплексе</a>
+                    </li>
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="#">Район</a>
+                    </li>
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="#">Каталог квартир</a>
+                    </li>
+                    <li class="footer_menu-item">
+                        <a class="footer__menu-link" href="#">Ипотека</a>
+                    </li>
+                    <li class="footer_menu-item">
+                        <a class="footer_menu-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_info">
+                <div class="container footer_contacts">
+                    <p>Адрес: {{ this.theme.address }}</p>
+                    <p>Телефон: <a class="footer_phone" href="tel:+{{ this.theme.phone_link }}">{{ this.theme.phone }}</a></p>
+                    <p>Отдел продаж: {{ this.theme.sales_department }}</p>
+                    <p>E-mail: <a class="email" href="mailto:{{ this.theme.email }}">{{ this.theme.email }}</a></p>
+                </div>
+                <ul class="socials">
+                    {% if this.theme.is_yt %}
+                        <li class="socials_item">
+                            <a class="socials_link" href="{{ this.theme.yt_link }}"><img src="{{ 'assets/images/yt.svg'|theme }}" alt="youtube"></a>
+                        </li>
+                    {% endif %}
+                    {% if this.theme.is_vk %}
+                        <li class="socials_item">
+                            <a class="socials_link" href="{{ this.theme.vk_link }}"><img src="{{ 'assets/images/vk.svg'|theme }}" alt="vk"></a>
+                        </li>
+                    {% endif %}
+                    {% if this.theme.is_fb %}
+                        <li class="socials_item">
+                            <a class="socials_link" href="{{ this.theme.fb_link }}"><img src="{{ 'assets/images/facebook-logo.svg'|theme }}" alt="facebook"></a>
+                        </li>
+                    {% endif %}
+                    {% if this.theme.is_ig %}
+                        <li class="socials_item">
+                            <a class="socials_link" href="{{ this.theme.ig_link }}"><img src="{{ 'assets/images/instagram.svg'|theme }}" alt="instagram"></a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
