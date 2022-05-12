@@ -1,0 +1,63 @@
+items:
+    -
+        title: 'Главная страница'
+        nesting: null
+        type: url
+        url: /
+        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'О комплексе'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: o-komplekse
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Контакты
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: contacts
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Район
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: rajon
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Ипотека
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: ipoteka
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: 'Верхнее меню'

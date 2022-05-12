@@ -1,0 +1,11 @@
+<div class="menu">
+    <nav class="navigation">
+        <ul class="menu-list">
+            {% for item in __SELF__.menuItems %}
+                <li class="nav_menu">
+                    <a href="{{ item.url }}">{{ item.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>

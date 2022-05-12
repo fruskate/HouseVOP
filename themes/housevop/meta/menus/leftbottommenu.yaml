@@ -1,0 +1,26 @@
+items:
+    -
+        title: Контакты
+        nesting: null
+        type: cms-page
+        url: null
+        code: ''
+        reference: static_pages/contacts
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Ипотека
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: ipoteka
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: 'Нижнее левое меню'

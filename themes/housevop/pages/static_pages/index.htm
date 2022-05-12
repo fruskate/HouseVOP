@@ -4,22 +4,11 @@ title = "Жилой комплекс в историческом центре"
 ==
 <div class="section">
     <div class="features">
-        <div class="feature feature_1">
-            <img src="{{ 'assets/images/bench.svg'|theme }}" alt="bench">
-            <p>Рядом исторические парки и скверы</p>
-        </div>
-        <div class="feature feature_2">
-            <img src="{{ 'assets/images/building.svg'|theme }}" alt="building">
-            <p>Полностью обустроенный</p>
-        </div>
-        <div class="feature feature_3">
-            <img src="{{ 'assets/images/fountain.svg'|theme }}" alt="fountain">
-            <p>10 фонтанов на территории</p>
-        </div>
-        <div class="feature feature_4">
-            <img src="{{ 'assets/images/bicycle.svg'|theme }}" alt="bicycle">
-            <p>6 км велодорожек</p>
-        </div>
+        {% partial "features/item" number = 1 icon = 'assets/images/bench.svg'|theme title = 'Рядом исторические парки и скверы' %}
+        {% partial "features/item" number = 2 icon = 'assets/images/building.svg'|theme title = 'Полностью обустроенныйы' %}
+        {% partial "features/item" number = 3 icon = 'assets/images/fountain.svg'|theme title = '10 фонтанов на территории' %}
+        {% partial "features/item" number = 4 icon = 'assets/images/bicycle.svg'|theme title = '6 км велодорожек' %}
+        {% partial "features/item" number = 5 icon = 'assets/images/bench.svg'|theme title = 'Тест' %}
     </div>
 </div>
 <section class="second_screen">

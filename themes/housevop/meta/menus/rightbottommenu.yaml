@@ -1,0 +1,26 @@
+items:
+    -
+        title: 'О комплексе'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: o-komplekse
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Район
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: rajon
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: 'Нижнее правое меню'
