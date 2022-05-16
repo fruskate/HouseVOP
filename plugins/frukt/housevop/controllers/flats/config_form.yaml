@@ -1,0 +1,10 @@
+name: Flats
+form: $/frukt/housevop/models/flat/fields.yaml
+modelClass: Frukt\Housevop\Models\Flat
+defaultRedirect: frukt/housevop/flats
+create:
+    redirect: 'frukt/housevop/flats/update/:id'
+    redirectClose: frukt/housevop/flats
+update:
+    redirect: frukt/housevop/flats
+    redirectClose: frukt/housevop/flats

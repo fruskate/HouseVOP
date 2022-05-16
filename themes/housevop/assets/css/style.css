@@ -257,6 +257,7 @@ h1{
 .loft:nth-child(3){
 	margin-bottom: 20px;
 }
+/*
 .loft:nth-child(odd) {
 	background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(../images/loft1.jpg), #D4C17F;
 
@@ -264,6 +265,8 @@ h1{
 .loft:nth-child(even){
 	background: linear-gradient(180deg, #242B33 0%, rgba(36, 43, 51, 0) 0.01%, #242B33 100%), url(../images/loft2.jpg), #D4C17F;
 }
+
+ */
 
 /*third_screen*/
 

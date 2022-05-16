@@ -1,0 +1,30 @@
+plugin:
+    name: 'frukt.housevop::lang.plugin.name'
+    description: 'frukt.housevop::lang.plugin.description'
+    author: Frukt
+    icon: oc-icon-adjust
+    homepage: ''
+permissions:
+    admin:
+        tab: ДОСТУПЫ
+        label: 'ДОСТУП НА ЧТО-ТО'
+navigation:
+    main-menu-item:
+        label: HouseVop
+        url: /
+        icon: icon-btc
+        permissions:
+            - admin
+        sideMenu:
+            side-menu-item:
+                label: Обращения
+                url: frukt/housevop/appeals
+                icon: icon-slideshare
+                permissions:
+                    - admin
+            side-menu-item2:
+                label: Квартиры
+                url: frukt/housevop/flats
+                icon: icon-umbrella
+                permissions:
+                    - admin

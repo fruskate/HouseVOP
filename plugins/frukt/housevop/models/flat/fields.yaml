@@ -1,0 +1,23 @@
+fields:
+    is_active:
+        label: 'ПОКАЗЫВАТЬ НА ГЛАВНОЙ СТРАНИЦЕ?'
+        span: auto
+        type: switch
+    title:
+        label: Title
+        span: full
+        type: text
+    desc:
+        label: Desc
+        size: huge
+        span: full
+        type: richeditor
+    images:
+        label: ИЗОБРАЖЕНИЯ
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

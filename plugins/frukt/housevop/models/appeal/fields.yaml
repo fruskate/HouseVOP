@@ -1,0 +1,10 @@
+fields:
+    name:
+        label: 'ИМЯ КЛИЕНТА'
+        span: auto
+        type: text
+        comment: 'Этот человек обратился к вам'
+    phone:
+        label: ТЕЛЕФОН
+        span: auto
+        type: text

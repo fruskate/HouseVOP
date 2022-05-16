@@ -1,0 +1,17 @@
+columns:
+    name:
+        label: КЛИЕНТ
+        type: text
+        searchable: true
+        sortable: true
+    phone:
+        label: ТЕЛЕФОН
+        type: text
+        invisible: false
+        sortable: true
+    created_at:
+        label: СОЗДАНО
+        type: datetime
+    updated_at:
+        label: ОБНОВЛЕНО
+        type: datetime

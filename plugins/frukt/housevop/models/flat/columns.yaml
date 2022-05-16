@@ -1,0 +1,14 @@
+columns:
+    title:
+        label: title
+        type: text
+        searchable: true
+    is_active:
+        label: is_active
+        type: switch
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime

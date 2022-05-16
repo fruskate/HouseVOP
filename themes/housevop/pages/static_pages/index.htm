@@ -1,6 +1,10 @@
 url = "/"
 layout = "default"
 title = "Жилой комплекс в историческом центре"
+
+[appealsManager]
+
+[flatsManager]
 ==
 <div class="section">
     <div class="features">
@@ -11,25 +15,7 @@ title = "Жилой комплекс в историческом центре"
         {% partial "features/item" number = 5 icon = 'assets/images/bench.svg'|theme title = 'Тест' %}
     </div>
 </div>
-<section class="second_screen">
-    <div class="appartments">
-        <h2>Наши квартиры</h2>
-    </div>
-    <div class="shared">
-        <div class="loft">
-            <a href="#"><p>Лофт — 3 этажа</p></a>
-        </div>
-        <div class="loft">
-            <a href="#"><p>Лофт — 2 этажа</p></a>
-        </div>
-        <div class="loft">
-            <a href="#"><p>Лофт — 3 этажа</p></a>
-        </div>
-        <div class="loft">
-            <a href="#"><p>Лофт — 2 этажа</p></a>
-        </div>
-    </div>
-</section>
+{% component 'flatsManager' %}
 <section class="third_screen">
     <div class="block">
         <h2 class="block_text">Хотите посмотреть?</h2>
@@ -71,20 +57,4 @@ title = "Жилой комплекс в историческом центре"
                 allowfullscreen="true"></iframe>
     </div>
 </div>
-<div class="questions">
-    <h2 class="questions_head">Есть вопросы?</h2>
-    <div>
-        <form class="questions_form">
-            <p class="text questions_text">*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
-            <label class="questions_label">
-                <input class="input" type="text" name="name" placeholder="Ваше имя">
-            </label>
-            <label class="questions_label">
-                <input class="input" type="text" name="telphone" placeholder="Ваш телефон">
-            </label>
-            <div class="questions_btn">
-                <button class="btn" type="submit">Посмотреть район</button>
-            </div>
-        </form>
-    </div>
-</div>
+{% component 'appealsManager' %}

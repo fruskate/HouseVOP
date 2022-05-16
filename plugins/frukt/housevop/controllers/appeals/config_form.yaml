@@ -1,0 +1,10 @@
+name: Appeals
+form: $/frukt/housevop/models/appeal/fields.yaml
+modelClass: Frukt\Housevop\Models\Appeal
+defaultRedirect: frukt/housevop/appeals
+create:
+    redirect: 'frukt/housevop/appeals/update/:id'
+    redirectClose: frukt/housevop/appeals
+update:
+    redirect: frukt/housevop/appeals
+    redirectClose: frukt/housevop/appeals

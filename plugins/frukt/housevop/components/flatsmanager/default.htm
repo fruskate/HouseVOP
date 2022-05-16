@@ -1,0 +1,14 @@
+<section class="second_screen">
+    <div class="appartments">
+        <h2>Наши квартиры</h2>
+    </div>
+
+
+    <div class="shared">
+        {% for item in flats %}
+            <div class="loft" style="background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url({{ item.images|first.getThumb(535, 320, {'mode':'crop'}) }}), #D4C17F;">
+                <a href="#"><p>{{ item.title }}</p></a>
+            </div>
+        {% endfor %}
+    </div>
+</section>
